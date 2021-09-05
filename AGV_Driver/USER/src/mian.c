@@ -31,6 +31,7 @@ Description:
 //	NVIC->ISER[NVIC_Channel/32]|=1<<NVIC_Channel%32;//使能中断位(要清除的话,设置ICER对应位为1即可)
 //	NVIC->IP[NVIC_Channel]|=temp<<4;				//设置响应优先级和抢断优先级   	    	  				   
 //}
+//添加注释
 int main(void)
 {
 	BspInit();
